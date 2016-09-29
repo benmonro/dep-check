@@ -1,0 +1,27 @@
+{
+  "name": "dep-check",
+  "version": "1.0.0",
+  "description": "see how many usages of each dependency exist in your code.",
+  "bin": {
+    "dep-check": "./lib/index.js"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dependencies"
+  ],
+  "author": "Ben Monro",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-es2017": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0"
+  },
+  "dependencies": {
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "commander": "^2.9.0",
+    "find-in-files": "^0.3.1"
+  }
+}

@@ -1,0 +1,16 @@
+.DS_Store
+npm-debug.log
+node_modules
+coverage
+dist
+.idea
+**/lib
+.vagrant
+.npmrc
+.docker_host
+.chokidar_pid
+.tag
+assets.json
+.happypack
+package.json-e
+newrelic_agent.log
